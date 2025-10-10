@@ -1,5 +1,5 @@
 def capitalize_words(text: str) -> str:
-    cap_str = text.upper()
+    cap_str = [ text.upper(), text.title(), text.capitalize() ]
     return cap_str
 
 str = input("enter the string : ")
